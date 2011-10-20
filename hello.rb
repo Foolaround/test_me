@@ -1,5 +1,6 @@
 require 'sinatra'
+require 'json'
 
 get '/' do
-  'Hello world!'
+ { :time => Time.now }.to_json
 end
