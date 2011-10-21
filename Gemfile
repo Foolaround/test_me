@@ -1,4 +1,6 @@
 source 'http://rubygems.org'
 gem 'json'
 gem 'sinatra'
-gem 'sinatra-synchrony'
+gem 'sinatra-synchrony', :require => 'sinatra/synchrony'
+gem 'event_machine'
+gem 'thin'
