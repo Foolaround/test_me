@@ -13,7 +13,6 @@ GEM
       eventmachine
     em-synchrony (1.0.0)
       eventmachine (>= 1.0.0.beta.1)
-    event_machine (0.2.0)
     eventmachine (1.0.0.beta.3)
     http_parser.rb (0.5.3)
     json (1.6.1)
@@ -42,7 +41,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  event_machine
+  eventmachine (>= 1.0.0.beta3)
   json
   sinatra
   sinatra-synchrony

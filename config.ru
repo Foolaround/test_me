@@ -1,6 +1,6 @@
 require 'rubygems'
 require './hello.rb'
 
-Bundler.require
+#Bundler.require
 
 run Sinatra::Application
